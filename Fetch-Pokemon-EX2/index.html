@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Pokémon</title>
+    <style>
+        /* Estilos simples para o formulário */
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 200px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 10px;
+        }
+        #pokemon-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta de Pokémon</h1>
+    <form id="pokemon-form">
+        <input type="text" id="pokemon-name" placeholder="Digite o nome do Pokémon">
+        <button type="submit">Consultar</button>
+    </form>
+    <div id="pokemon-info"></div>
+
+    <!-- Adicionando o script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
